@@ -1,0 +1,11 @@
+# wrangler.toml
+name = "mint-music"
+main = "server.js"
+compatibility_date = "2024-08-01"
+
+[vars]
+BASE_URL = "mint-player-build.workers.dev"
+AMAZON_CLIENT_ID = "amzn1.application-oa2-client.53f7a0112ea240d88abd734b8105adc5"
+# Don’t put your secret directly here; set it below
+[secrets]
+# Wrangler won’t store it in plaintext — use `wrangler secret put`
